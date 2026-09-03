@@ -13,9 +13,10 @@
   inputs = {
     flake-utils.url = "github:numtide/flake-utils";
 
-    # The monorepo that actually builds this module. Point this at wherever you
-    # push lez-programs (owner/branch) — CI fetches it to build `.#lgx-portable`.
-    lez_programs.url = "github:logos-blockchain/lez-programs?ref=chore/release-test";
+    # The monorepo that actually builds this module — CI fetches it to build
+    # `.#lgx-portable`. Pinned to a specific lez-programs main commit for a
+    # reproducible release; bump the rev (and re-lock) to publish a newer build.
+    lez_programs.url = "github:logos-blockchain/lez-programs?rev=9346106f44ba1c25801c066dfb93fb6d7b735c8a";
   };
 
   # Re-expose the monorepo's AMM UI-module LGX under the bare attribute names the

@@ -306,7 +306,7 @@
       },
       "original": {
         "owner": "logos-blockchain",
-        "ref": "fix/generic-tx-instruction-bstr",
+        "ref": "byte-string-fix",
         "repo": "logos-execution-zone-module",
         "type": "github"
       }
@@ -321,17 +321,17 @@
         "rust-overlay": "rust-overlay_6"
       },
       "locked": {
-        "lastModified": 1788186250,
-        "narHash": "sha256-zCW91XvJd3B/ynNxkazH1QhV4EBYsUjbJKVvLJ98Ej8=",
+        "lastModified": 1788371463,
+        "narHash": "sha256-I3q5ka0WFoFU0tl2g/0HNSx3P74EtuVRhEQtbQlt5z0=",
         "owner": "logos-blockchain",
         "repo": "lez-programs",
-        "rev": "df36ac1a6e7cacf447d3e174ab4315a4a5a14602",
+        "rev": "9346106f44ba1c25801c066dfb93fb6d7b735c8a",
         "type": "github"
       },
       "original": {
         "owner": "logos-blockchain",
-        "ref": "chore/release-test",
         "repo": "lez-programs",
+        "rev": "9346106f44ba1c25801c066dfb93fb6d7b735c8a",
         "type": "github"
       }
     },
