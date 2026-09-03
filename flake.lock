@@ -321,17 +321,17 @@
         "rust-overlay": "rust-overlay_6"
       },
       "locked": {
-        "lastModified": 1788371463,
-        "narHash": "sha256-I3q5ka0WFoFU0tl2g/0HNSx3P74EtuVRhEQtbQlt5z0=",
+        "lastModified": 1788431387,
+        "narHash": "sha256-jJGLzfc+AipE+2BpJapBIffJEjwzblVdYOxynoUqNCc=",
         "owner": "logos-blockchain",
         "repo": "lez-programs",
-        "rev": "9346106f44ba1c25801c066dfb93fb6d7b735c8a",
+        "rev": "fb76bec03c661e3de2a0bab20fe1a719686a7199",
         "type": "github"
       },
       "original": {
         "owner": "logos-blockchain",
         "repo": "lez-programs",
-        "rev": "9346106f44ba1c25801c066dfb93fb6d7b735c8a",
+        "rev": "fb76bec03c661e3de2a0bab20fe1a719686a7199",
         "type": "github"
       }
     },
