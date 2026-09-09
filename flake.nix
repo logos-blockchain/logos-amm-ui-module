@@ -16,7 +16,7 @@
     # The monorepo that actually builds this module — CI fetches it to build
     # `.#lgx-portable`. Pinned to a specific lez-programs main commit for a
     # reproducible release; bump the rev (and re-lock) to publish a newer build.
-    lez_programs.url = "github:logos-blockchain/lez-programs?rev=f1fa8e9db2d026c6bc54896ef881383242ce3b10";
+    lez_programs.url = "github:logos-blockchain/lez-programs?rev=b17f919842a5a0058e054bb909af025086ba0ea5";
   };
 
   # Re-expose the monorepo's AMM UI-module LGX under the bare attribute names the
